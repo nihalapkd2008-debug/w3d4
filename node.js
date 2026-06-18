@@ -24,17 +24,18 @@ document.getElementById("city").innerText =
 
 }
 
+// Change Styles Using JavaScript
+
+function changeStyle() {
+
+let heading = 
+document.getElementById ("heading");
+
+heading.style.color = "Red";
+heading.style.backgroundColor = "yellow";
+heading.style.padding = "15px";
 
 
 
 
-
-
-
-
-
-
-//     document.getElementById("city").innerText =
-//     "City : " + student.city;
-
-// }
+}
