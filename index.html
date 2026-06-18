@@ -1,38 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Student Profile Project</title>
-  <style>
-    body{
-      font-family: cursive;
-      text-align: center;
-      margin-top: 50px;
-    }
-    #profile{
-      border: 2px solid black;
-      width: 350px;
-      margin: auto;
-      padding: 20px;
-      border-radius: 10px;
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Profile Project</title>
 
-    }
-    
-  </style>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        #profile{
+            border: 2px solid black;
+            width: 350px;
+            margin: auto;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        button{
+            margin-top: 15px;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+    </style>
 </head>
 <body>
-<h1 id="heading">Student Profile</h1>
-<div id="Profile">
-  <h2 id="name">Name</h2>
-  <p id="age">Age</p>
-   <p id="course">Course</p> 
-   <p id="city">City</p>
 
-</div>
-<button onclick="showProfile()">Show Profile</button>
-<button onclick="changestyle()">Change Style</button>
-  
-  <script src="node.js" defer></script>
+    <h1 id="heading">Student Profile</h1>
+
+    <div id="profile">
+
+        <h2 id="name">Name</h2>
+
+        <p id="age">Age</p>
+
+        <p id="course">Course</p>
+
+        <p id="city">City</p>
+
+    </div>
+
+    <button onclick="showProfile()">
+        Show Profile
+    </button>
+
+    <button onclick="changeStyle()">
+        Change Style
+    </button>
+
+    <script src="script.js"></script>
+
 </body>
 </html>
